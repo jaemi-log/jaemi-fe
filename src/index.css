@@ -8,7 +8,7 @@
 
 body {
     font-family: ‘SUIT Variable’, sans-serif;
-    @apply h-screen;
+    @apply h-screen bg-gray-100;
 }
 
 #root {

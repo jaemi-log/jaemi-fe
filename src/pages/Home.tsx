@@ -1,13 +1,15 @@
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
+import PostList from "../components/PostList/PostList";
 
-const Timeline = () => {
+const Home = () => {
   return (
     <>
       <Header />
+      <PostList />
       <Navigation />
     </>
   );
 };
 
-export default Timeline;
+export default Home;
