@@ -1,5 +1,5 @@
 .container {
-    @apply absolute inset-x-0 flex justify-center items-center bottom-0 h-12 p-1 border-solid border-t border-gray-300 bg-white;
+    @apply fixed inset-x-0 flex justify-center items-center bottom-0 h-12 p-1 border-solid border-t border-gray-300 bg-white;
 }
 
 .plusIcon {

@@ -1,5 +1,5 @@
 .container {
-    @apply flex items-center justify-center h-12 p-4 border-solid border-b border-gray-300 bg-white
+    @apply fixed inset-x-0 flex items-center justify-center h-12 p-4 border-solid border-b border-gray-300 bg-white
 }
 
 .logo {

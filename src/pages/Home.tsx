@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
-import PostList from "../components/PostList/PostList";
+import PostList from "../components/PostList";
 
 const Home = () => {
   return (
