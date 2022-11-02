@@ -4,11 +4,12 @@ import styles from "./NavigationItem.module.css";
 
 type Props = {
   children: ReactNode;
+  onClick: () => void;
 };
 
-const NavigationItem = ({ children }: Props) => {
+const NavigationItem = ({ children, onClick }: Props) => {
   return (
-    <button type="button" className={styles.button}>
+    <button type="button" className={styles.button} onClick={onClick}>
       {children}
     </button>
   );

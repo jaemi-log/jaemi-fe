@@ -1,0 +1,15 @@
+.panel {
+    @apply w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all;
+}
+
+.title {
+    @apply text-lg font-medium leading-6 text-gray-900;
+}
+
+.content {
+    @apply mt-2 text-sm text-gray-500;
+}
+
+.button {
+    @apply inline-flex justify-center mt-4 rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
+}
