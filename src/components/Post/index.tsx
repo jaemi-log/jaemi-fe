@@ -8,7 +8,7 @@ type Props = {
   children: ReactNode;
 };
 const Post = ({ children }: Props) => {
-  return <div>{children}</div>;
+  return <article>{children}</article>;
 };
 
 Post.Header = Header;

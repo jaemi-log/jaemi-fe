@@ -1,13 +1,19 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
 import styles from "./Header.module.css";
 
 type Props = {
-  children: ReactNode;
+  title: string;
+  date: Date;
 };
 
-const Header = ({ children }: Props) => {
-  return <h5 className={styles.title}>{children}</h5>;
+const Header = ({ title, date }: Props) => {
+  return (
+    <header className={styles.header}>
+      <span className={styles.date}>{date.toLocaleDateString()}</span>
+      <h5 className={styles.title}>{title}</h5>
+    </header>
+  );
 };
 
 export default Header;

@@ -1,3 +1,16 @@
-.title {
-    @apply flex items-center px-4 py-2 font-semibold text-xl
+.header {
+    @apply flex items-center gap-2.5 px-4 py-2;
 }
+
+.date {
+    @apply font-semibold text-lg text-gray-900 underline underline-offset-4 decoration-2 decoration-emerald-400;
+}
+
+.title {
+    @apply flex;
+}
+
+/*.title::before {*/
+/*    content: " ";*/
+/*    @apply inline-block w-1 h-auto mr-2 bg-blue-500;*/
+/*}*/

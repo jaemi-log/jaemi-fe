@@ -9,7 +9,7 @@ const PostList = () => {
     <section className={styles.section}>
       <Card>
         <Post>
-          <Post.Header>22. 11. 1.</Post.Header>
+          <Post.Header date={new Date(Date.now())} title="안녕하세욧~~" />
           <Post.Image src="https://picsum.photos/id/237/500/500" alt="이미지" />
           <Post.Content>
             농업생산성의 제고와 농지의 합리적인 이용을 위하거나 불가피한 사정으로 발생하는 농지의 임대차와 위탁경영은
@@ -21,7 +21,7 @@ const PostList = () => {
       </Card>
       <Card>
         <Post>
-          <Post.Header>22. 11. 1.</Post.Header>
+          <Post.Header date={new Date(Date.now())} title="안녕하세욧~~" />
           <Post.Image src="https://picsum.photos/id/237/500/500" alt="이미지" />
           <Post.Content>
             농업생산성의 제고와 농지의 합리적인 이용을 위하거나 불가피한 사정으로 발생하는 농지의 임대차와 위탁경영은
